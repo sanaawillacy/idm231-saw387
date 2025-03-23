@@ -29,7 +29,7 @@ body {
 }
 
 .page-left {
-    background: url('C:/Users/sanaa/Documents/IDM 231/page_1_bg_image.avif') no-repeat;
+    background: url('page_1_bg_image.avif') no-repeat;
     background-size: 105% 105%; 
     background-color: #d7a1ff;
     padding: 40px;
@@ -37,7 +37,7 @@ body {
 }
 
 .page-right {
-    background: url('C:/Users/sanaa/Documents/IDM 231/page_2_bg_image.avif');
+    background: url('page_2_bg_image.avif');
     background-size: 105% 105%; 
     background-color: #d7a1ff;
     padding: 40px;
