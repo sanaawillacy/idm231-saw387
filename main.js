@@ -142,6 +142,12 @@ function updateContent(name, zodiacSign) {
     document.querySelector(".description").textContent = data.description;
 }
 
+document.querySelectorAll('.zodiac-button').forEach(button => {
+    button.addEventListener('click', function() {
+        const zodiac = this.getAttribute('data-zodiac');
+        updateZodiacDisplay(zodiac);
+    });
+});
 
 let all_sounds = []; // Store audio elements for stopping them later
 
